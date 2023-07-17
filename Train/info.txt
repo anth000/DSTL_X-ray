@@ -1,0 +1,25 @@
+Info :
+
+Exactitude (Accuracy) : 0.6231155778894473
+Précision (Precision) : 0.6888888888888889
+Rappel (Recall) : 0.5688073394495413
+F1-score : 0.6231155778894473
+Matrice de confusion :
+[[124  56]
+ [ 94 124]]
+
+Settings :
+DSTL : non
+classifier : MobileNetV2
+batch_size : 8
+validation-split : 0.2
+1er couche dense : 1024
+Regulizer l1_l2 : (0.001, 'non')
+Dropout 1 : 1024
+
+2eme couche dense : 1024
+Regulizer l1_l2 : ('non', 0.001)
+Dropout 2 : 256
+
+Fonction d'activation : sigmoid
+Optimizer : SGD, learning_rate = 0.0075
